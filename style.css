@@ -3,3 +3,31 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+html {
+    scroll-behavior: smooth; 
+}
+
+.header {
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(rgba(30, 8, 54, 0.8), rgba(0, 0, 0, 0.9)), url('cloth.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    background-color: #000; 
+    color: #fff;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 20px 0;
+    width: 100%;
+}
