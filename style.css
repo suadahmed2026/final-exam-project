@@ -31,3 +31,32 @@ body {
     padding: 20px 0;
     width: 100%;
 }
+
+.logo h2 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #ff523b;
+}
+
+nav {
+    flex: 1;
+    text-align: right;
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+    gap: 25px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ff523b; 
+}
