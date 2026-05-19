@@ -60,3 +60,32 @@ nav ul li a {
 nav ul li a:hover {
     color: #ff523b; 
 }
+
+.container {
+    max-width: 1300px;
+    margin: auto;
+    padding: 0 25px;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap; 
+    justify-content: space-around;
+    padding: 50px 0;
+}
+
+.col-2 {
+    flex-basis: 50%;
+    min-width: 300px;
+}
+
+.col-2 img {
+    width: 100%;
+    max-width: 400px; 
+    display: block;
+    margin: auto; 
+    border-radius: 20px;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.6);
+    transition: transform 0.5s;
+}
